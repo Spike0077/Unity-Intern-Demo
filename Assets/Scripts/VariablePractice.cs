@@ -56,15 +56,8 @@ public class VariablePractice : MonoBehaviour
             ResetPlayer();
         }
 
-        // 5. 下蹲功能
-        if (Input.GetKey(KeyCode.LeftControl))
-        {
-            transform.localScale = new Vector3(1, 0.5f, 1);
-        }
-        else
-        {
-            transform.localScale = Vector3.one;
-        }
+
+
     }
 
     // 碰撞地面恢复跳跃能力
