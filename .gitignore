@@ -69,3 +69,4 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Pp]lugins/[Aa]ndroid/[Aa]ssets/
 /[Aa]ssets/[Pp]lugins/[Aa]ndroid/[Ll]ibs/
+.com-unity-codely.json
