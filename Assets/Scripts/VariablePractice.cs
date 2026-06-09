@@ -55,7 +55,15 @@ public class VariablePractice : MonoBehaviour
         {
             ResetPlayer();
         }
-
+        // 5. 下蹲功能
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            transform.localScale = new Vector3(1, 0.5f, 1);
+        }
+        else
+        {
+            transform.localScale = Vector3.one;
+        }
 
 
     }
@@ -67,9 +75,9 @@ public class VariablePractice : MonoBehaviour
         {
             _canJump = true;
             // 可选：落地自动变色
-             _mr.material.color = hitColor;
+             //_mr.material.color = hitColor;
             // 新增：延迟1秒后自动调用ResetPlayer函数
-            Invoke(nameof(ResetPlayer), 1f);
+            //Invoke(nameof(ResetPlayer), 1f);
         }
     }
 
