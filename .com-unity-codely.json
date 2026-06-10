@@ -1,10 +1,10 @@
 {
-  "unity_port": 2236,
-  "stream_port": 6862,
+  "unity_port": 5698,
+  "stream_port": 6718,
   "created_date": "2026-06-03T07:00:08.8239815Z",
   "project_path": "D:/TuanjieHub/UnityProjects/Test3D/Assets",
   "reloading": false,
   "reason": "ready",
   "seq": 1,
-  "last_heartbeat": "2026-06-09T06:08:11.3791083Z"
+  "last_heartbeat": "2026-06-10T12:20:08.2818970Z"
 }
